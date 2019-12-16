@@ -1,3 +1,7 @@
+## Preinstalation
+   * git clone https://github.com/HoangTienDuc/keras-retinanet.git
+   * cd keras-retinanet
+   * python setup.py build_ext --inplac  
 # EfficientDet
 This is an implementation of [EfficientDet](https://arxiv.org/pdf/1911.09070.pdf) for object detection on Keras and Tensorflow. The project is based on [fizyr/keras-retinanet](https://github.com/fizyr/keras-retinanet)
 and the [qubvel/efficientnet](https://github.com/qubvel/efficientnet). 
@@ -8,7 +12,7 @@ This project is released under the Apache License. Please take their licenses in
 
 ## Train
 ### build dataset 
-1. Pascal VOC 
+1. Pascal VOC
     * Download VOC2007 and VOC2012, copy all image files from VOC2007 to VOC2012.
     * Append VOC2007 train.txt to VOC2012 trainval.txt.
     * Overwrite VOC2012 val.txt by VOC2007 val.txt.
